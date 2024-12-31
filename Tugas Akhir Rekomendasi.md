@@ -19,10 +19,8 @@ Proyek ini bertujuan untuk membangun sistem rekomendasi pilihan buku menggunakan
 ### Goals
 
 Menjelaskan tujuan dari pernyataan masalah:
-Menjelaskan tujuan proyek yang menjawab pernyataan masalah:
-- Jawaban pernyataan masalah 1
-- Jawaban pernyataan masalah 2
-- Jawaban pernyataan masalah n
+1. Meningkatkan peminjaman/penjualan dan kepuasan pelanggan melalui rekomendasi judul buku yang relevan dengan preferensi pelanggan.
+2. Mengoptimalkan pengelolaan inventaris dengan memastikan buku-buku yang rekomendasikan tersedia dan beragam.
 
 Semua poin di atas harus diuraikan dengan jelas. Anda bebas menuliskan berapa pernyataan masalah dan juga goals yang diinginkan.
 
