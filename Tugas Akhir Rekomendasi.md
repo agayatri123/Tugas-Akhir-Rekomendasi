@@ -34,9 +34,9 @@ Pendekatan Algoritma Rekomendasi Berbasis Kesamaan: Menggunakan algoritma cosine
 - Total Baris Data: 52,478 entries
 - Memori yang Digunakan: 33.1+ MB
 - Status Missing Values:
-    ⌂ Description: 1,454 missing values (540,455 non-null dari 541,909)
-    ⌂ CustomerID: 135,080 missing values (406,829 non-null dari 541,909)
-    ⌂ Kolom lainnya terisi lengkap (541,909 non-null)
+    -  ⌂ Description: 1,454 missing values (540,455 non-null dari 541,909)
+    -  ⌂ CustomerID: 135,080 missing values (406,829 non-null dari 541,909)
+    - Kolom lainnya terisi lengkap (541,909 non-null)
 
 Selanjutnya, uraikanlah seluruh variabel atau fitur pada data. Sebagai contoh:  
 
