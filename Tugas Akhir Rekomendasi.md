@@ -11,104 +11,55 @@ Bagaimana cara mempersingkat waktu pemeriksaan di laboratorium untuk uji kemurni
 - Memberikan kepastian madu murni berkualitas pada konsumen
 - Memberi transparansi kualitas pada pemain value chain madu murni
 
-## BUSINESS UNDERSTANDING
-Dengan adanya handheld detector untuk real-time honey purity checker akan mempermudah, mempercepat dan mempermurah masalah keraguan kualitas madu selama ini yang bersumber paling utama pada kemurnian madu.
+ ### Solution statements
+    - Mengajukan 2 atau lebih solution statement. Misalnya, menggunakan dua atau lebih algoritma untuk mencapai solusi yang diinginkan atau melakukan improvement pada baseline model dengan hyperparameter tuning.
+    - Solusi yang diberikan harus dapat terukur dengan metrik evaluasi.
+    - Mengajukan 2 atau lebih solution approach (algoritma atau pendekatan sistem rekomendasi).
 
-## SOLUTION STATEMENT 
-Idealnya untuk masalah ini digunakan "Predictive Analytics" dengan algoritma yang dipakai adalah ANN, namun penulis sudah berkonsultasi pada mentor, bertanya di forum diskusi dicoding maupun tanya chatgpt, gemini, googling, browsing, dsb tidak ditemukan coding yang diharapkan dan penulis dapat pahami esensi nya.
-Sehingga penulis menggunakan 3 cara seperti pada latihan Studi Kasus Pertama : K-Nearest Neighbour, Random Forest and Boosting Algoritm.
+## Data Understanding
+Paragraf awal bagian ini menjelaskan informasi mengenai data yang Anda gunakan dalam proyek. Sertakan juga sumber atau tautan untuk mengunduh dataset. Contoh: [UCI Machine Learning Repository](https://archive.ics.uci.edu/ml/datasets/Restaurant+%26+consumer+data).
+Paragraf awal bagian ini menjelaskan informasi mengenai jumlah data, kondisi data, dan informasi mengenai data yang digunakan. Sertakan juga sumber atau tautan untuk mengunduh dataset. Contoh: [UCI Machine Learning Repository](https://archive.ics.uci.edu/ml/datasets/Restaurant+%26+consumer+data).
 
-## DATA UNDERSTANDING
-- Dibutuhkan dataset yang besar, beragam dan realible dari spesifikasi madu.
-Karena dataset tersebut belum tersedia, maka diambil data yang ada dari Umair Zia di Kaggle terdiri dari 12 variable.
-**Terdiri dari 247.903 data & 11 column.**
-https://www.kaggle.com/datasets/stealthtechnologies/predict-purity-and-price-of-honey 
+Selanjutnya, uraikanlah seluruh variabel atau fitur pada data. Sebagai contoh:  
 
-- Dalam dataset terdiri dari 11 column dengan jenis datanya masing-masing sbb :
-![alt text](image-5.png)
+@@ -49,33 +48,29 @@ Variabel-variabel pada Restaurant UCI dataset adalah sebagai berikut:
+- cuisine : merupakan jenis masakan yang disajikan pada restoran.
+- dst
 
-- Berikut adalah sebaran nilai per column datanya:
-![alt text](image.png)
+**Opsional**:
+**Rubrik/Kriteria Tambahan (Opsional)**:
+- Melakukan beberapa tahapan yang diperlukan untuk memahami data, contohnya teknik visualisasi data beserta insight atau exploratory data analysis.
 
-- Berikut hasilnya setelah data di-drop:
-![alt text](image-8.png)
+## Data Preparation
+Pada bagian ini Anda menerapkan dan menyebutkan teknik data preparation yang dilakukan. Teknik yang digunakan pada notebook dan laporan harus berurutan.
 
-- Ternyata variable EC, F dan G memiliki korelasi NOL atau mendekati itu sehingga perlu di-drop seperti bukti 
-Correlation Matrix untuk Fitur Numerik pada gambar di bawah ini:
-![alt text](image-7.png)
+**Opsional**: 
+**Rubrik/Kriteria Tambahan (Opsional)**: 
+- Menjelaskan proses data preparation yang dilakukan
+- Menjelaskan alasan mengapa diperlukan tahapan data preparation tersebut.
 
-- Dengan penjelasan tiap variable sbb :
-    - CS (Color Score): Menunjukkan nilai warna dari sample madu berkisar dari 1.0 hingga 10.0. 
-    Nilai nya semakin rendah menunjukkan warna yang semakin pudar, semakin tinggi berarti semakin gelap warnanya.
-    - Density: menunjukkan densitas sample madu dalam grams/cubic.cm pada suhu 25°C. Berkisaran 1.21 hingga 1.86.
-    - WC (Water Content): Menunjukkan kadar air pada sample madu berkisaran 12.0% hingga 25.0%.
-    - pH: Menunjukkan pH level atau keasaman dari sample madu, berkisaran 2.50 hingga 7.50.
-    - EC (Electrical Conductivity): Menunjukkan konduktifitas elektrik dari sample madu dalam milliSiemens per cm.
-    - F (Fructose Level): Menunjukkan kadar fruktosa dalam sample madu, berkisaran 20 hingga 50.
-    - G (Glucose Level): Menunjukkan kadar gula glukosa dalam sample madu, berkisaran 20 hingga 45.
-    - Pollen_analysis: Menunjukkan sumber nektar bunga dari sample madu. Yang tercakup antara lain cengkeh, bunga liar, Orange Blossom, Alfalfa, 
-    Acacia, Lavender, Eucalyptus, Buckwheat, Manuka, Sage, Sunflower, Borage, Rosemary, Thyme, Heather, Tupelo, Blueberry, Chestnut & Avocado.
-    - Viscosity: Menunjukkan viskositas sample madu dalam centipoise, berkisaran 1500 hingga 10000. 
-    - Nilai Viskositas antara 2500 & 9500 dianggap optimal untuk suatu kemurnian.
-    - Purity: Variable target menunjukkan kemurnian dari sample madu, berkisaran 0.01 hingga 1.00.
-    - Price: Hitungan harga dari madu.
+## Modeling
+Tahapan ini membahas mengenai model machine learning yang digunakan untuk menyelesaikan permasalahan. Anda perlu menyajikan top-N recommendation sebagai output.
+Tahapan ini membahas mengenai model sisten rekomendasi yang Anda buat untuk menyelesaikan permasalahan. Sajikan top-N recommendation sebagai output.
 
-- Variabel-variabel pada dataset predict-purity-and-price-of-honey dari Kaggle di atas (beserta deskripsinya terdiri dari variable :
-CS, Density, WC, pH, EC, F, G, Viscosity, Purity & Price
+**Opsional**: 
+- Menjelaskan kelebihan dan kekurangan dari setiap algoritma yang digunakan.
+**Rubrik/Kriteria Tambahan (Opsional)**: 
+- Menyajikan dua solusi rekomendasi dengan algoritma yang berbeda.
+- Menjelaskan kelebihan dan kekurangan dari solusi/pendekatan yang dipilih.
 
-Ini terbukti dari hasil run coding. ** Tidak terdapat missing data (nilai nol/kosong) sbb** : 
-![alt text](image-6.png) 
+## Evaluation
+Pada bagian ini anda perlu menyebutkan metrik evaluasi yang digunakan. Lalu anda perlu menjelaskan hasil proyek berdasarkan metrik evaluasi yang digunakan.
+Sebagai contoh, Anda memiih kasus klasifikasi dan menggunakan metrik **akurasi, precision, recall, dan F1 score**. Jelaskan mengenai beberapa hal berikut:
+- Penjelasan mengenai metrik yang digunakan
+- Menjelaskan hasil proyek berdasarkan metrik evaluasi
+Pada bagian ini Anda perlu menyebutkan metrik evaluasi yang digunakan. Kemudian, jelaskan hasil proyek berdasarkan metrik evaluasi tersebut.
 
-- **Tidak terdapat data outliers** dgn contoh bukti sbb:
-![alt text](image-1.png)
+Ingatlah, metrik evaluasi yang digunakan harus sesuai dengan konteks data, problem statement, dan solusi yang diinginkan.
 
-## DATA PREPARATION
-Teknik yang digunakan adalah Exploratory data analysis (EDA).
-Sedangkan pembagian data train & test adalah 70% dan 30%. 
-- Di-check seandainya ada variable yang bernilai nol ataupun kosong.
-Ternyata dari hasil coding pengecheckan seandainya ada nilai data nol, tidak diketemukan adanya yang nol.
+**Opsional**: 
+**Rubrik/Kriteria Tambahan (Opsional)**: 
+- Menjelaskan formula metrik dan bagaimana metrik tersebut bekerja.
 
-Sehingga walau dilakukan coding: drop baris yang memiliki nilai nol maka hasil total data dari yang awalnya 247903 mjd tetap 247903.
+**---Ini adalah bagian akhir laporan---**
 
-- Setelahnya dilihat Correlation Matrix untuk Fitur Numerik nya ternyata variable EC, F dan G memiliki korelasi NOL atau mendekati itu.
-Ini artinya ketiga nya paling tidak memiliki korelasi sehingga perlu di-drop.
-
-- Lalu variable Pollen_analysis di-one hot encoder karena bukan berupa angka. Berikut gambar table hasil one-hot-encoder.
-![alt text](image-9.png)
-
-- Kemudian dataset dibagi menjadi 2 :
-X (variable input): CS, Density, WC, pH, EC, F, G, Viscosity & Price
-y (variable target): Purity
-- Kemudian data distandarisasi, dengan hasil gambar seperti di bawah ini.
-![alt text](image-10.png) 
-
-## MODELLING
-- Dilakukan dataframe untuk analisis model
-- Lalu dilakukan Model Development With K-Nearest Neighbour, Random Forest dan Boosting Algoritm.
-Karena ketiganya termasuk modelling yang telah dipelajari di Dicoding selama ini. 
-- KKN menggunakan n_neighbors k = 10 tetangga dan metric Euclidean untuk mengukur jarak antara titik. 
-- Random Forest menggunakan n_estimator 50, dimana 50 itu adalah jumlah trees (pohon) di forest.
-- Boosting Algorithm menggunakan learning_rate=0.05 dimana 50 adalah bobot yang diterapkan pada setiap regressor di masing-masing proses iterasi boosting.
-Penulis sebenar nya ingin membuat modelling Feedforward Neural Network dengan Backpropagation berdasar pengalaman penulis meng-coding 
-di MATLAB dahulu dimana menghasilkan prediksi bagus untuk data fluktuatif sekalipun. Namun konsultasi dengan mentor, forum diskusi
-Dicoding, chatgpt, dsb nya untuk cara pengkodingan nya kurang berhasil. 
-
-## EVALUATION 
-- Dilakukan scalling dan dihitung MSE nya pada data train data test (bentuk angka dan chart) sbb :
-RF senilai nol koma sekian, KNN lebih dari 1 dan Boosting memiliki MSE tertinggi yaitu lebih dari 7.
-- Ternyata K-Nearest Neighbour memiliki nilai error terkecil sehingga dipilih menjadi kualitas terbaik.
-- Saat di-testing pun ternyata ketika y_true senilai 0,88 maka KNN senilai 0,88 pula (pembulatan 2 digit belakang koma).
-sedangkan RF bernilai 0,9 dan Boosting senilai 0,7.
-![alt text](image-2.png)
-Gambar hasil evaluasi ketiga Gambar
-
-![alt text](image-4.png)
-Gambar hasil prediksi ketiga nya terhadap y_true
-
-## KESIMPULAN
-Sehingga dapat disimpulkan model KNN yang akan kita pilih sebagai model terbaik untuk melakukan prediksi kemurnian madu.
-Walau sebenarnya belum terlalu mencapai harapan solusi di lapangan karena sebagian dataset adalah Pollen bunga yang unfamiliar di Indonesia.
-Sehingga diharapkan ke depannya penulis bisa mendapatkan dataset pollen bunga khas Indonesia seperti bunga mangga, bunga kopi, dsb.
-Sehingga AI Honey Purity Detector lebih aplicable dipakai untuk madu Indonesia. 
-
----Ini adalah bagian akhir laporan---
