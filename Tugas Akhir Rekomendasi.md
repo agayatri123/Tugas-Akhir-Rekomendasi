@@ -1,6 +1,6 @@
 # **Laporan Submission 2 - Anindita Gayatri**
 
-Pada bagian ini, Kamu perlu menuliskan latar belakang yang relevan dengan proyek yang diangkat.
+Proyek ini bertujuan untuk membangun sistem rekomendasi pilihan buku menggunakan data identitas buku. Sistem ini akan memberikan rekomendasi buku kepada pelanggan berdasarkan kesamaan salah satu identitas buku, dalam hal ini bahasa yang dipakai buku sebelumnya. Disamping itu proyek ini tidak hanya memberikan manfaat langsung bagi perpustakaan dalam hal peminjaman buku, tetapi juga dapat digunakan pada e-commerce seperti amazon, tokopedia, dll. memberikan wawasan berharga yang dapat digunakan untuk pengambilan keputusan strategis di masa depan.
 
 **Opsional**:
 - Jelaskan mengapa dan bagaimana masalah tersebut harus diselesaikan
