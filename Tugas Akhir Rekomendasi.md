@@ -1,6 +1,6 @@
 # **Laporan Submission 2 - Anindita Gayatri**
 
-Proyek ini bertujuan untuk membangun sistem rekomendasi pilihan buku menggunakan data identitas buku. Sistem ini akan memberikan rekomendasi buku kepada pelanggan berdasarkan kesamaan salah satu identitas buku, dalam hal ini bahasa yang dipakai buku sebelumnya. Disamping itu proyek ini tidak hanya memberikan manfaat langsung bagi perpustakaan dalam hal peminjaman buku, tetapi juga dapat digunakan pada e-commerce seperti amazon, tokopedia, dll. memberikan wawasan berharga yang dapat digunakan untuk pengambilan keputusan strategis di masa depan.
+Proyek ini bertujuan untuk membangun sistem rekomendasi pilihan buku menggunakan data identitas buku. Sistem ini akan memberikan rekomendasi buku kepada pelanggan berdasarkan kesamaan salah satu identitas buku, dalam hal ini bahasa yang dipakai buku sebelumnya. Disamping itu proyek ini tidak hanya bermanfaat bagi perpustakaan dalam hal peminjaman buku, tetapi juga dapat digunakan pada penjualan buku online seperti amazon, tokopedia, dll. Juga dapat dikembangkan lagi untuk memberikan wawasan berharga yang dapat digunakan untuk pengambilan keputusan strategis bisnis literatur di masa depan.
 
 **Opsional**:
 - Jelaskan mengapa dan bagaimana masalah tersebut harus diselesaikan
@@ -13,11 +13,8 @@ Proyek ini bertujuan untuk membangun sistem rekomendasi pilihan buku menggunakan
 
 ### Problem Statements
 
-Menjelaskan pernyataan masalah latar belakang:
-Menjelaskan pernyataan masalah:
-- Pernyataan Masalah 1
-- Pernyataan Masalah 2
-- Pernyataan Masalah n
+1. Rekomendasi judul buku yang tidak akurat dapat menyebabkan pelanggan merasa tidak puas, dimana berpotensi mengurangi tingkat peminjaman buku.
+2. Pengelolaan data yang besar dan beragam dapat menyulitkan analisis dan pengambilan keputusan yang tepat, terutama dalam menangani nilai yang hilang dan memastikan kualitas data.
 
 ### Goals
 
