@@ -32,10 +32,16 @@ Pendekatan Algoritma Rekomendasi Berbasis Kesamaan: Menggunakan algoritma cosine
 1. Informasi Dataset Dataset yang digunakan dalam proyek ini terdiri dari 52,478 entri dengan 25 kolom yang berbeda. Data ini diambil dari transaksi rekomendasi buku terbaik dan mencakup informasi mengenai identitas buku yang dinilai memiliki kualitas terbaik oleh pelanggan yang bersumber dari dataset public kaggle. (https://www.kaggle.com/datasets/thedevastator/comprehensive-literary-greats-dataset) 
 2. Kondisi Data
 - Total Baris Data: 52,478 entries
-- Memori yang Digunakan: 33.1+ MB
+- Memori yang Digunakan: 10.0+ MB
 - Status Missing Values:
-    - Description: 1,454 missing values (540,455 non-null dari 541,909)
-    - CustomerID: 135,080 missing values (406,829 non-null dari 541,909)
+    - series: 29,008 missing values (23470 non-null dari 52,478)
+    - description: 1,338 missing values (51,140 non-null dari 52,478)
+    - language: 3,806 missing values (48,672 non-null dari 52,478)
+    - bookFormat: 1,473 missing values (51,005 non-null dari 52,478)
+    - CustomerID: 135,080 missing values (406,829 non-null dari 52,478)
+    - CustomerID: 135,080 missing values (406,829 non-null dari 52,478)
+    - CustomerID: 135,080 missing values (406,829 non-null dari 52,478)
+    - CustomerID: 135,080 missing values (406,829 non-null dari 52,478)
     - Kolom lainnya terisi lengkap (541,909 non-null)
 
 Selanjutnya, uraikanlah seluruh variabel atau fitur pada data. Sebagai contoh:  
