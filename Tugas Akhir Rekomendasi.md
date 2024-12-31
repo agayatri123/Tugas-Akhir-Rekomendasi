@@ -14,7 +14,7 @@ Proyek ini bertujuan untuk membangun sistem rekomendasi pilihan buku menggunakan
 ### Problem Statements
 
 1. Rekomendasi judul buku yang tidak akurat dapat menyebabkan pelanggan merasa tidak puas, dimana berpotensi mengurangi tingkat peminjaman buku.
-2. Pengelolaan data yang besar dan beragam dapat menyulitkan analisis dan pengambilan keputusan yang tepat, terutama dalam menangani nilai yang hilang dan memastikan kualitas data.
+2. Pengelolaan data yang besar dan beragam dapat menyulitkan analisis dan pengambilan keputusan yang tepat, salah satunya menangani keragaman buku yang seharusnya tersedia sesuai minat pembeli/peminjam buku.
 
 ### Goals
 
