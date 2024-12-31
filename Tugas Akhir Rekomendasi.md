@@ -26,12 +26,17 @@ Semua poin di atas harus diuraikan dengan jelas. Anda bebas menuliskan berapa pe
 
 **Solution statements**
 
-Pendekatan Algoritma Rekomendasi Berbasis Kesamaan: Menggunakan algoritma cosine similarity untuk menghitung kesamaan antar produk berdasarkan fitur yang ada, seperti judul dan bahasa yang digunakan. Ini akan membantu dalam memberikan rekomendasi yang lebih relevan kepada pelanggan.
+Pendekatan Algoritma Rekomendasi Berbasis Kesamaan: Menggunakan algoritma cosine similarity untuk menghitung kesamaan antar produk berdasarkan fitur yang ada, seperti judul dan bahasa yang digunakan. Ini akan membantu dalam memberikan rekomendasi yang lebih relevan kepada pelanggan. 
 
 ## Data Understanding
-Informasi Dataset Dataset yang digunakan dalam proyek ini terdiri dari 52.478 entri dengan 25 kolom yang berbeda. Data ini diambil dari transaksi rekomendasi buku terbaik dan mencakup informasi mengenai identitas buku yang dinilai memiliki kualitas terbaik oleh pelanggan yang bersumber dari dataset public kaggle. 
-
-Paragraf awal bagian ini menjelaskan informasi mengenai jumlah data, kondisi data, dan informasi mengenai data yang digunakan. Sertakan juga sumber atau tautan untuk mengunduh dataset. Contoh: [UCI Machine Learning Repository](https://archive.ics.uci.edu/ml/datasets/Restaurant+%26+consumer+data).
+1. Informasi Dataset Dataset yang digunakan dalam proyek ini terdiri dari 52,478 entri dengan 25 kolom yang berbeda. Data ini diambil dari transaksi rekomendasi buku terbaik dan mencakup informasi mengenai identitas buku yang dinilai memiliki kualitas terbaik oleh pelanggan yang bersumber dari dataset public kaggle. (https://www.kaggle.com/datasets/thedevastator/comprehensive-literary-greats-dataset) 
+Kondisi Data
+2. Total Baris Data: 52,478 entries
+Memori yang Digunakan: 33.1+ MB
+Status Missing Values:
+Description: 1,454 missing values (540,455 non-null dari 541,909)
+CustomerID: 135,080 missing values (406,829 non-null dari 541,909)
+Kolom lainnya terisi lengkap (541,909 non-null)
 
 Selanjutnya, uraikanlah seluruh variabel atau fitur pada data. Sebagai contoh:  
 
