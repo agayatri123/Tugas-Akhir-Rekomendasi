@@ -1,16 +1,4 @@
-# **Laporan Proyek Machine Learning - Anindita Gayatri**
-
-## DOMAIN PROYEK : Kesehatan
-Penulis adalah UKM produsen dalam industri makanan bernama JAVANA ROYAL (IG @JavanaRoyalOfficial) yaitu makanan sehat, murni dan alami yang bahan bakunya di-supply langsung dari para petani di pedalaman Indonesia. Khususnya Madu Murni kualitas export yang menjadi flagship product kami. Karena berdasar survey kami 2x thn 2019 dan 2022 ternyata hasilnya konsisten 100% konsumen Madu menginginkan manfaat kesehatan. Khususnya bagi para penderita diabetes, kanker, dsb yang menghindari gula tebu, rafinasi, gula jagung, dsb yang memiliki kadar indeks glikemik tinggi. Namun sayangnya pasar Indonesia dikuasai madu oplosan. Juga para importer luar negeri cenderung menghindari produk madu karena keraguan kredibilitas eksportir madu dari Indonesia mengenai kemurnian madu. Sedangkan kualitas kemurnian madu hanya bisa dideteksi melalui test lab dari lab berkredibilitas Indonesia yang mahal dan memakan waktu untuk mengetahui hasilnya.
-
-Dari masalah inilah kami dari Madu JAVANA ROYAL merasa penting adanya suatu alat detektor kemurnian madu. Disamping untuk melindungi hak konsumen, khususnya para penderita sakit serius, juga memberi keadilan transparansi bagi para produsen madu yang benar-benar murni alami. Juga membuka peluang eksport Madu Murni Indonesia. 
-
-## REFERENSI: 
-Bogdanov, S. (2009). "Honey quality and international standards." Food Control 20(6): 548–559.
-Meena, D., et al. (2020). "Detection of honey adulteration using high-performance liquid chromatography." Food Chemistry 305: 125410. 
-
-## BUSINESS UNDERSTANDING
-Dengan adanya handheld detector untuk real-time honey purity checker akan mempermudah, mempercepat dan mempermurah masalah keraguan kualitas madu selama ini yang bersumber paling utama pada kemurnian madu.
+# **Laporan Submission 2 - Anindita Gayatri**
 
 ## Problem Statements
 Bagaimana cara mempersingkat waktu pemeriksaan di laboratorium untuk uji kemurnian madu? Hal ini karena :
@@ -21,7 +9,10 @@ Bagaimana cara mempersingkat waktu pemeriksaan di laboratorium untuk uji kemurni
 ## Goals
 - handheld detector untuk real-time honey purity checker akanmemberi solusi yang mempermudah, mempercepat dan mempermurah. 
 - Memberikan kepastian madu murni berkualitas pada konsumen
-- Memberi transparansi kualitas pada pemain value chain madu murni 
+- Memberi transparansi kualitas pada pemain value chain madu murni
+
+## BUSINESS UNDERSTANDING
+Dengan adanya handheld detector untuk real-time honey purity checker akan mempermudah, mempercepat dan mempermurah masalah keraguan kualitas madu selama ini yang bersumber paling utama pada kemurnian madu.
 
 ## SOLUTION STATEMENT 
 Idealnya untuk masalah ini digunakan "Predictive Analytics" dengan algoritma yang dipakai adalah ANN, namun penulis sudah berkonsultasi pada mentor, bertanya di forum diskusi dicoding maupun tanya chatgpt, gemini, googling, browsing, dsb tidak ditemukan coding yang diharapkan dan penulis dapat pahami esensi nya.
