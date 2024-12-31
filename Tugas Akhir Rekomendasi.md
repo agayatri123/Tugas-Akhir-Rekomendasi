@@ -1,20 +1,38 @@
 # **Laporan Submission 2 - Anindita Gayatri**
 
-## Problem Statements
-Bagaimana cara mempersingkat waktu pemeriksaan di laboratorium untuk uji kemurnian madu? Hal ini karena :
-- Dunia termasuk Indonesia memiliki masalah keraguan kualitas madu selama ini yang bersumber paling utama pada kemurnian madu.
-- Khususnya Indonesia yang dikuasai pasar madu oplosan/palsu alias tidak 100% murni lagi
-- Konsumen madu umumnya para penderita sakit berat yang menghindari pemanis lain yang memiliki efek buruk pada kesehatan.
+Pada bagian ini, Kamu perlu menuliskan latar belakang yang relevan dengan proyek yang diangkat.
 
-## Goals
-- handheld detector untuk real-time honey purity checker akanmemberi solusi yang mempermudah, mempercepat dan mempermurah. 
-- Memberikan kepastian madu murni berkualitas pada konsumen
-- Memberi transparansi kualitas pada pemain value chain madu murni
+**Opsional**:
+- Jelaskan mengapa dan bagaimana masalah tersebut harus diselesaikan
+**Rubrik/Kriteria Tambahan (Opsional)**:
+- Jelaskan mengapa proyek ini penting untuk diselesaikan.
+- Menyertakan hasil riset terkait atau referensi. Referensi yang diberikan harus berasal dari sumber yang kredibel dan author yang jelas.
 
- ### Solution statements
-    - Mengajukan 2 atau lebih solution statement. Misalnya, menggunakan dua atau lebih algoritma untuk mencapai solusi yang diinginkan atau melakukan improvement pada baseline model dengan hyperparameter tuning.
-    - Solusi yang diberikan harus dapat terukur dengan metrik evaluasi.
-    - Mengajukan 2 atau lebih solution approach (algoritma atau pendekatan sistem rekomendasi).
+  Format Referensi: [Judul Referensi](https://scholar.google.com/) 
+@@ -18,29 +18,28 @@ Bagian laporan ini mencakup:
+
+### Problem Statements
+
+Menjelaskan pernyataan masalah latar belakang:
+Menjelaskan pernyataan masalah:
+- Pernyataan Masalah 1
+- Pernyataan Masalah 2
+- Pernyataan Masalah n
+
+### Goals
+
+Menjelaskan tujuan dari pernyataan masalah:
+Menjelaskan tujuan proyek yang menjawab pernyataan masalah:
+- Jawaban pernyataan masalah 1
+- Jawaban pernyataan masalah 2
+- Jawaban pernyataan masalah n
+
+Semua poin di atas harus diuraikan dengan jelas. Anda bebas menuliskan berapa pernyataan masalah dan juga goals yang diinginkan.
+
+**Opsional**:
+- Menambahkan bagian “Solution Statement” yang menguraikan cara untuk meraih goals. Bagian ini dibuat dengan ketentuan sebagai berikut: 
+**Rubrik/Kriteria Tambahan (Opsional)**:
+- Menambahkan bagian “Solution Approach” yang menguraikan cara untuk meraih goals. Bagian ini dibuat dengan ketentuan sebagai berikut: 
 
 ## Data Understanding
 Paragraf awal bagian ini menjelaskan informasi mengenai data yang Anda gunakan dalam proyek. Sertakan juga sumber atau tautan untuk mengunduh dataset. Contoh: [UCI Machine Learning Repository](https://archive.ics.uci.edu/ml/datasets/Restaurant+%26+consumer+data).
