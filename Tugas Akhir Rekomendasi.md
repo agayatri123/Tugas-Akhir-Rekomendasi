@@ -126,13 +126,16 @@ Nilai cosine similarity berkisar antara -1 hingga 1:
 0 menunjukkan bahwa dua vektor tidak memiliki kesamaan (tegak lurus).
 -1 menunjukkan bahwa dua vektor berlawanan arah.
 
-**Opsional**: 
-- Menjelaskan kelebihan dan kekurangan dari setiap algoritma yang digunakan.
-**Rubrik/Kriteria Tambahan (Opsional)**: 
-- Menyajikan dua solusi rekomendasi dengan algoritma yang berbeda.
-- Menjelaskan kelebihan dan kekurangan dari solusi/pendekatan yang dipilih.
+Berdasarkan perhitungan tf-idf matrix didapatkan hasil pasangan tile (Judul Buku) terhadap language (Bahasa) yang digunakan sbb:
+Gambar_7.jpeg
+
+Lalu kita menghitung cosine similarity dataframe tfidf_matrix yang kita peroleh pada tahapan sebelumnya sehingga menghasilkan kesamaan (similarity) antar title (Judul Buku) sbb:
+Gambar_8,jpeg
+
 
 ## Evaluation
+
+
 Pada bagian ini anda perlu menyebutkan metrik evaluasi yang digunakan. Lalu anda perlu menjelaskan hasil proyek berdasarkan metrik evaluasi yang digunakan.
 Sebagai contoh, Anda memiih kasus klasifikasi dan menggunakan metrik **akurasi, precision, recall, dan F1 score**. Jelaskan mengenai beberapa hal berikut:
 - Penjelasan mengenai metrik yang digunakan
