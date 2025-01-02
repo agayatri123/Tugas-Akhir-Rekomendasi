@@ -95,13 +95,13 @@ Menghapus transaksi dengan Quantity atau UnitPrice yang sangat tinggi atau renda
 - Dengan mengikuti tahapan data preparation ini, kami dapat memastikan bahwa data yang digunakan dalam analisis dan model rekomendasi adalah data yang berkualitas dan siap digunakan.
 
 - Jumlah Judul Buku vs Bahasa
-  ![Gambar_5](https://github.com/user-attachments/assets/fb700171-da91-4e1c-897c-43c6b5a2b677)
+  ![Gambar_5] (https://github.com/user-attachments/assets/fb700171-da91-4e1c-897c-43c6b5a2b677)
 
 
   Berdasar grafik di atas diketahui ternyata perpustakaan didominasi oleh buku berbahasa Inggris, diikuti Italia dan Spanish, dll. Namun secara kuantitas Italia, dst memiliki jumlah yang tidak jauh berbeda.
 
 - Jumlah Buku vs Penerbit
-  ![Gambar_6](https://github.com/user-attachments/assets/deebea21-0495-4388-9bb0-3928f4c5f010)
+  ![Gambar_6] (https://github.com/user-attachments/assets/deebea21-0495-4388-9bb0-3928f4c5f010)
 
 
   Berdasar grafik di atas diketahui ternyata perpustakaan mengoleksi buku dari penerbit yang beragam dan jumlah nya tidak jauh berbeda. Karena TOP 5 penerbit yang dipimpin oleh Marvel lalu Oxford hanya berbeda 5 pcs. Demikian pula untuk penerbit-penerbit di bawah nya.  
