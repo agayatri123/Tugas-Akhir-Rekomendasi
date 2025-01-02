@@ -114,7 +114,9 @@ Cosine Similarity Cosine Similarity adalah metrik yang digunakan untuk mengukur 
 
 - Cosine similarity dihitung dengan rumus berikut:
 
-Screenshot 2024-11-24 at 16 55 55
+[Gambar_7] ![Gambar_7](https://github.com/user-attachments/assets/56147c6f-4bc9-4e38-a6f9-c3f52cc2a6ea)
+
+
 Di mana:
 
 ( A ) dan ( B ) adalah dua vektor yang mewakili item yang dibandingkan.
