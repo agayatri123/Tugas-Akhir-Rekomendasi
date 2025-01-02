@@ -60,12 +60,34 @@ Variabel atau Fitur pada Dataset (dari 20 column yang tersisa setelah data "dibe
         - dst
 
 ## Data Preparation
-Pada bagian ini Anda menerapkan dan menyebutkan teknik data preparation yang dilakukan. Teknik yang digunakan pada notebook dan laporan harus berurutan.
+Pada bagian ini, kami menerapkan beberapa teknik data preparation yang penting untuk memastikan bahwa data siap digunakan dalam analisis dan model rekomendasi. Proses yang dilakukan adalah sebagai berikut :
+1. Data Cleaning
 
-**Opsional**: 
-**Rubrik/Kriteria Tambahan (Opsional)**: 
-- Menjelaskan proses data preparation yang dilakukan
-- Menjelaskan alasan mengapa diperlukan tahapan data preparation tersebut.
+  - Deskripsi: Proses ini bertujuan untuk menghapus data yang kosong dan memastikan bahwa data dalam format yang konsisten. Data yang bersih sangat penting untuk analisis yang akurat dan model yang efektif.
+  - Langkah-langkah:
+      - Melihat summary dari dataset awal untuk mengetahui :
+              - jumlah kolom
+              - jenis data apa saja yang ada
+              - jenis data dari tiap kolom
+              - berapa entries/baris data yang ada
+              - besar memory yanng digunakan dataset
+              - berapa banyak kolom yang null
+        Gambar 1
+        - Setelah mengetahui kolom mana saja yang null (karena di bagian "non-null count" kurang dari jumlah entries), maka dicheck ulang melihat sample isian 5 data dari tiap kolom untuk meyakiknkan isinya apa saja.
+        - Juga di-check ulang mana saja kolom yang termasuk kelompok Numerical dan mana yang categorical.
+        - Setelahnya di-delete baris yang ada nilai null nya, berakibat pada berkurangnya jumlah baris. Kolom yang memiliki nilai null sbb:
+                - series, description, language, bookFormat, edition, pages, publisher, publishDate, firstPublishDate, likedPercent, coverImg dan price
+
+
+          
+
+Konversi Format Tanggal: Kolom InvoiceDate diubah menjadi format datetime menggunakan pd.to_datetime(), yang memungkinkan analisis temporal yang lebih baik.
+
+Output Pembersihan: Setelah pembersihan, jumlah data yang tersisa dan jumlah missing values ditampilkan. Ini memberikan gambaran tentang seberapa banyak data yang hilang dan seberapa bersih data setelah proses pembersihan.
+
+
+
+
 
 ## Modeling
 Tahapan ini membahas mengenai model machine learning yang digunakan untuk menyelesaikan permasalahan. Anda perlu menyajikan top-N recommendation sebagai output.
