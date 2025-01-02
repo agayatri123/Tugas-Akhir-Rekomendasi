@@ -92,7 +92,10 @@ Menggunakan metode statistik seperti IQR (Interquartile Range) atau Z-score untu
 Menghapus transaksi dengan Quantity atau UnitPrice yang sangat tinggi atau rendah dibandingkan dengan rata-rata untuk meningkatkan kualitas data (bila ada). Namun di data ini tidak dilakukan karena sebaran nya sudah cukup baik. 
 Gambar_4.jpg
 
+3. Exploratory Data Analysis
 
+Dengan mengikuti tahapan data preparation di atas tadi, kita dapat memastikan bahwa data yang digunakan dalam analisis dan model rekomendasi adalah data yang berkualitas dan siap digunakan. Berikut beberapa contoh analisis data nya.
+- 
         
 
 
