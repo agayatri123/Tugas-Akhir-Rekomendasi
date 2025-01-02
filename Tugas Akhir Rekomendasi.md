@@ -59,10 +59,6 @@ Variabel atau Fitur pada Dataset (dari 20 column yang tersisa setelah data "dibe
         - language: Bahasa yang dipakai oleh penulis  (type: object)
         - dst
 
-**Opsional**:
-**Rubrik/Kriteria Tambahan (Opsional)**:
-- Melakukan beberapa tahapan yang diperlukan untuk memahami data, contohnya teknik visualisasi data beserta insight atau exploratory data analysis.
-
 ## Data Preparation
 Pada bagian ini Anda menerapkan dan menyebutkan teknik data preparation yang dilakukan. Teknik yang digunakan pada notebook dan laporan harus berurutan.
 
