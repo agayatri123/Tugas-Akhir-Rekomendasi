@@ -142,18 +142,12 @@ Di mana:
 
 ## Evaluation
 
+Pada bagian ini, kita akan mencoba menanyakan rekomendasi 5 buah judul yang mirip dengan title yang kita ketik misalnya "Eugénie Grandet" berbahasa Inggris sbb:
+Terlihat hasilnya sudah sesuai sepertu yang diharapkan. 
+[Gambar_10] ![Gambar_10](https://github.com/user-attachments/assets/8026eada-db0e-4de7-8bf8-d2c8051bf267)
 
-Pada bagian ini anda perlu menyebutkan metrik evaluasi yang digunakan. Lalu anda perlu menjelaskan hasil proyek berdasarkan metrik evaluasi yang digunakan.
-Sebagai contoh, Anda memiih kasus klasifikasi dan menggunakan metrik **akurasi, precision, recall, dan F1 score**. Jelaskan mengenai beberapa hal berikut:
-- Penjelasan mengenai metrik yang digunakan
-- Menjelaskan hasil proyek berdasarkan metrik evaluasi
-Pada bagian ini Anda perlu menyebutkan metrik evaluasi yang digunakan. Kemudian, jelaskan hasil proyek berdasarkan metrik evaluasi tersebut.
 
-Ingatlah, metrik evaluasi yang digunakan harus sesuai dengan konteks data, problem statement, dan solusi yang diinginkan.
 
-**Opsional**: 
-**Rubrik/Kriteria Tambahan (Opsional)**: 
-- Menjelaskan formula metrik dan bagaimana metrik tersebut bekerja.
 
 **---Ini adalah bagian akhir laporan---**
 
