@@ -72,19 +72,28 @@ Pada bagian ini, kami menerapkan beberapa teknik data preparation yang penting u
               - berapa entries/baris data yang ada
               - besar memory yanng digunakan dataset
               - berapa banyak kolom yang null
-        Gambar 1
+        Gambar_1.jpg
         - Setelah mengetahui kolom mana saja yang null (karena di bagian "non-null count" kurang dari jumlah entries), maka dicheck ulang melihat sample isian 5 data dari tiap kolom untuk meyakiknkan isinya apa saja.
         - Juga di-check ulang mana saja kolom yang termasuk kelompok Numerical dan mana yang categorical.
-        - Setelahnya di-delete baris yang ada nilai null nya, berakibat pada berkurangnya jumlah baris. Kolom yang memiliki nilai null sbb:
+        Gambar_2.jpg
+        Gambar_3.jpg 
+        - Setelahnya di-delete baris yang ada nilai null nya dimana terdapat di kolom-kolom sbb:
                 - series, description, language, bookFormat, edition, pages, publisher, publishDate, firstPublishDate, likedPercent, coverImg dan price
+        - Dilakukan pemeriksaan ulang setelah delete null untuk meyakinkan bahwa sudah tidak ada nilai null yang masih tersisa.
+        - Setelah nya dilihat lagi berapa entries yang tersisa. Ternyata berkurang karena cukup banyak kolom yang ada nilai null nya tadi.
+
+2. Handling Outliers
+
+Deskripsi: Mengidentifikasi dan menangani outliers yang dapat mempengaruhi analisis. Outliers dapat menyebabkan distorsi dalam hasil analisis dan model.
+
+Metode:
+
+Menggunakan metode statistik seperti IQR (Interquartile Range) atau Z-score untuk mendeteksi outliers.
+Menghapus transaksi dengan Quantity atau UnitPrice yang sangat tinggi atau rendah dibandingkan dengan rata-rata untuk meningkatkan kualitas data (bila ada). Namun di data ini tidak dilakukan karena sebaran nya sudah cukup baik. 
+Gambar_4.jpg
 
 
-          
-
-Konversi Format Tanggal: Kolom InvoiceDate diubah menjadi format datetime menggunakan pd.to_datetime(), yang memungkinkan analisis temporal yang lebih baik.
-
-Output Pembersihan: Setelah pembersihan, jumlah data yang tersisa dan jumlah missing values ditampilkan. Ini memberikan gambaran tentang seberapa banyak data yang hilang dan seberapa bersih data setelah proses pembersihan.
-
+        
 
 
 
