@@ -135,6 +135,7 @@ Di mana:
 
 
 - Lalu kita menghitung cosine similarity dataframe tfidf_matrix yang kita peroleh pada tahapan sebelumnya sehingga menghasilkan kesamaan (similarity) antar title (Judul Buku) sbb:
+  Terlihat sebagian besar buku memiliki kesamaan, hanya buku paling kiri tidak. Sebab paling kiri adalah buku Italia.
   
 [Gambar_9],jpeg ![Gambar_9](https://github.com/user-attachments/assets/5b820275-c972-4fde-bad1-3e388d527003)
 
