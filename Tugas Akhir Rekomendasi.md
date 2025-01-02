@@ -48,11 +48,15 @@ Pendekatan Algoritma Rekomendasi Berbasis Kesamaan: Menggunakan algoritma cosine
     - price: 14,365 missing values (38,113 non-null dari 52,478)
     - Kolom lainnya terisi lengkap
 
-Selanjutnya, uraikanlah seluruh variabel atau fitur pada data. Sebagai contoh:  
-
-@@ -49,33 +48,29 @@ Variabel-variabel pada Restaurant UCI dataset adalah sebagai berikut:
-- cuisine : merupakan jenis masakan yang disajikan pada restoran.
-- dst
+Variabel atau Fitur pada Dataset (dari 20 column yang tersisa setelah data "dibersihkan" diambil fitur data yang penting sbb:
+    - bookId: Nomor buku di perpustakaan (type: object)
+    - title: Judul Buku  (type: object)
+    - series: Serial dari buku, bila ada  (type: object)
+    - author: Pengarang Buku  (type: object)
+    - rating: penilaian pembaca tentang kualitas buku antara 1-5  (type: int64)
+    - descriptian: penjelasan singkat isi buku  (type: object)
+    - language: Bahasa yang dipakai oleh penulis  (type: object)
+    - dst
 
 **Opsional**:
 **Rubrik/Kriteria Tambahan (Opsional)**:
