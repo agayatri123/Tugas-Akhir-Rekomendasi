@@ -72,19 +72,14 @@ Pada bagian ini, kami menerapkan beberapa teknik data preparation yang penting u
 
       - Setelah mengetahui kolom mana saja yang null (karena di bagian "non-null count" kurang dari jumlah entries), maka dicheck ulang melihat sample isian 5 data dari tiap kolom untuk meyakiknkan isinya apa saja.
         - Juga di-check ulang mana saja kolom yang termasuk kelompok Numerical dan mana yang categorical.
+          Kelompok Numerical:
           
         ![Gambar_2](https://github.com/user-attachments/assets/ed40f3c5-7551-4f9a-a8ff-927cb9bf7a5a)
 
+          Kelompok Categorical:
+        
         ![Gambar_3](https://github.com/user-attachments/assets/56b36f98-1837-4651-80f3-6ffc17847564)
 
-
-
-        - Setelah mengetahui kolom mana saja yang null (karena di bagian "non-null count" kurang dari jumlah entries), maka dicheck ulang melihat sample isian 5 data dari tiap kolom untuk meyakiknkan isinya apa saja.
-        - Juga di-check ulang mana saja kolom yang termasuk kelompok Numerical dan mana yang categorical.
-        ![Gambar_2](https://github.com/user-attachments/assets/f876de4f-e69c-4c66-8135-3695e9d05cf9)
-
-
-        ![Gambar_3](https://github.com/user-attachments/assets/72a91738-bca8-4c2b-9c88-52a412e11f71)
 
         - Setelahnya di-delete baris yang ada nilai null nya dimana terdapat di kolom-kolom sbb:
                 - series, description, language, bookFormat, edition, pages, publisher, publishDate, firstPublishDate, likedPercent, coverImg dan price
