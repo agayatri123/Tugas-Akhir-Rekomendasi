@@ -60,17 +60,17 @@ Pada bagian ini, kami menerapkan beberapa teknik data preparation yang penting u
   - Deskripsi: Proses ini bertujuan untuk menghapus data yang kosong dan memastikan bahwa data dalam format yang konsisten. Data yang bersih sangat penting untuk analisis yang akurat dan model yang efektif.
   - Langkah-langkah:
           - Melihat summary dari dataset awal untuk mengetahui: jumlah kolom,jenis data apa saja yang ada, jenis data dari tiap kolom, berapa entries/baris data yang ada, besar memory yanng digunakan dataset, berapa banyak kolom yang null.
-        
+     [Gambar_1]   
     ![Gambar_1](https://github.com/user-attachments/assets/c96d1122-0ef3-4785-a65b-5c1e9f74d2eb)
 
       - Setelah mengetahui kolom mana saja yang null (karena di bagian "non-null count" kurang dari jumlah entries), maka dicheck ulang melihat sample isian 5 data dari tiap kolom untuk meyakiknkan isinya apa saja.
         - Juga di-check ulang mana saja kolom yang termasuk kelompok Numerical dan mana yang categorical.
           Kelompok Numerical:
-          
+          [Gambar_2]
         ![Gambar_2](https://github.com/user-attachments/assets/ed40f3c5-7551-4f9a-a8ff-927cb9bf7a5a)
 
           Kelompok Categorical:
-        
+        [Gambar_3]
         ![Gambar_3](https://github.com/user-attachments/assets/56b36f98-1837-4651-80f3-6ffc17847564)
 
 
