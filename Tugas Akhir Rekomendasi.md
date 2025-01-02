@@ -70,10 +70,6 @@ Pada bagian ini, kami menerapkan beberapa teknik data preparation yang penting u
         
     ![Gambar_1](https://github.com/user-attachments/assets/c96d1122-0ef3-4785-a65b-5c1e9f74d2eb)
 
-    - Setelah mengetahui kolom mana saja yang null (karena di bagian "non-null count" kurang dari jumlah entries), maka dicheck ulang melihat sample isian 5 data dari tiap kolom untuk meyakiknkan isinya apa saja.
-        - Juga di-check ulang mana saja kolom yang termasuk kelompok Numerical dan mana yang categorical.
-    
-
         - Setelah mengetahui kolom mana saja yang null (karena di bagian "non-null count" kurang dari jumlah entries), maka dicheck ulang melihat sample isian 5 data dari tiap kolom untuk meyakiknkan isinya apa saja.
         - Juga di-check ulang mana saja kolom yang termasuk kelompok Numerical dan mana yang categorical.
         ![Gambar_2](https://github.com/user-attachments/assets/f876de4f-e69c-4c66-8135-3695e9d05cf9)
