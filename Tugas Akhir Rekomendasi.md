@@ -2,14 +2,9 @@
 
 Proyek ini bertujuan untuk membangun sistem rekomendasi pilihan buku menggunakan data identitas buku. Sistem ini akan memberikan rekomendasi buku kepada pelanggan berdasarkan kesamaan salah satu identitas buku, dalam hal ini bahasa yang dipakai buku sebelumnya. Disamping itu proyek ini tidak hanya bermanfaat bagi perpustakaan dalam hal peminjaman buku, tetapi juga dapat digunakan pada penjualan buku online seperti amazon, tokopedia, dll. Juga dapat dikembangkan lagi untuk memberikan wawasan berharga yang dapat digunakan untuk pengambilan keputusan strategis bisnis literatur di masa depan.
 
-**Opsional**:
-- Jelaskan mengapa dan bagaimana masalah tersebut harus diselesaikan
-**Rubrik/Kriteria Tambahan (Opsional)**:
-- Jelaskan mengapa proyek ini penting untuk diselesaikan.
-- Menyertakan hasil riset terkait atau referensi. Referensi yang diberikan harus berasal dari sumber yang kredibel dan author yang jelas.
-
-  Format Referensi: [Judul Referensi](https://scholar.google.com/) 
-@@ -18,29 +18,28 @@ Bagian laporan ini mencakup:
+Pentingnya Proyek Sistem Rekomendasi Produk: Proyek sistem rekomendasi produk ini sangat penting untuk diselesaikan karena beberapa alasan berikut:
+1. Menaikkan penyewaan/pembelian buku. Penelitian menemukan bahwa sistem rekomendasi secara signifikan dapat menaikkan penjualan dengan memanfaatkan data pelanggan untuk menghasilkan rekomendasi yang relevan. Penelitian menggarisbawahi dampak personalisasi pada peningkatan penjualan produk dalam e-commerce (Zhang et al., 2011).
+2. Di Pasar Personalization terjadi persaingan dalam pemberian rekomendasi dimana menjadi alat yang efektif untuk membangun loyalitas pelanggan dan memberi perusahaan keunggulan kompetitif di red ocean market (Ball et al., 2006).
 
 ### Problem Statements
 
