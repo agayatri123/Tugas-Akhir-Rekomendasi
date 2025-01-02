@@ -31,22 +31,22 @@ Pendekatan Algoritma Rekomendasi Berbasis Kesamaan: Menggunakan algoritma cosine
 ## Data Understanding
 1. Informasi Dataset Dataset yang digunakan dalam proyek ini terdiri dari 52,478 entri dengan 25 kolom yang berbeda. Data ini diambil dari transaksi rekomendasi buku terbaik dan mencakup informasi mengenai identitas buku yang dinilai memiliki kualitas terbaik oleh pelanggan yang bersumber dari dataset public kaggle. (https://www.kaggle.com/datasets/thedevastator/comprehensive-literary-greats-dataset) 
 2. Kondisi Data
-- Total Baris Data: 52,478 entries
-- Memori yang Digunakan: 10.0+ MB
-- Status Missing Values:
-    - series: 29,008 missing values (23470 non-null dari 52,478)
-    - description: 1,338 missing values (51,140 non-null dari 52,478)
-    - language: 3,806 missing values (48,672 non-null dari 52,478)
-    - bookFormat: 1,473 missing values (51,005 non-null dari 52,478)
-    - edition: 47,523 missing values (4,955 non-null dari 52,478)
-    - pages: 2,347 missing values (50,131 non-null dari 52,478)
-    - publisher: 3,696 missing values (48,782 non-null dari 52,478)
-    - publishDate: 880 missing values (51,598 non-null dari 52,478)
-    - firstPublishDate: 21,326 missing values (31,152 non-null dari 52,478)
-    - likedPercent: 622 missing values (51,856 non-null dari 52,478)
-    - coverImg: 605 missing values (51,873 non-null dari 52,478)
-    - price: 14,365 missing values (38,113 non-null dari 52,478)
-    - Kolom lainnya terisi lengkap
+  - Total Baris Data: 52,478 entries
+  - Memori yang Digunakan: 10.0+ MB
+  - Status Missing Values:
+      - series: 29,008 missing values (23470 non-null dari 52,478)
+      - description: 1,338 missing values (51,140 non-null dari 52,478)
+      - language: 3,806 missing values (48,672 non-null dari 52,478)
+      - bookFormat: 1,473 missing values (51,005 non-null dari 52,478)
+      - edition: 47,523 missing values (4,955 non-null dari 52,478)
+      - pages: 2,347 missing values (50,131 non-null dari 52,478)
+      - publisher: 3,696 missing values (48,782 non-null dari 52,478)
+      - publishDate: 880 missing values (51,598 non-null dari 52,478)
+      - firstPublishDate: 21,326 missing values (31,152 non-null dari 52,478)
+      - likedPercent: 622 missing values (51,856 non-null dari 52,478)
+      - coverImg: 605 missing values (51,873 non-null dari 52,478)
+      - price: 14,365 missing values (38,113 non-null dari 52,478)
+      - Kolom lainnya terisi lengkap
 
 Variabel atau Fitur pada Dataset (dari 20 column yang tersisa setelah data "dibersihkan" diambil fitur data yang penting sbb:
     
