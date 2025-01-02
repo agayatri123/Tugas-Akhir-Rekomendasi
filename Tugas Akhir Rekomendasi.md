@@ -73,8 +73,11 @@ Pada bagian ini, kami menerapkan beberapa teknik data preparation yang penting u
 
         - Setelah mengetahui kolom mana saja yang null (karena di bagian "non-null count" kurang dari jumlah entries), maka dicheck ulang melihat sample isian 5 data dari tiap kolom untuk meyakiknkan isinya apa saja.
         - Juga di-check ulang mana saja kolom yang termasuk kelompok Numerical dan mana yang categorical.
-        Gambar_2.jpg
-        Gambar_3.jpg 
+        ![Gambar_2](https://github.com/user-attachments/assets/f876de4f-e69c-4c66-8135-3695e9d05cf9)
+
+
+        ![Gambar_3](https://github.com/user-attachments/assets/72a91738-bca8-4c2b-9c88-52a412e11f71)
+
         - Setelahnya di-delete baris yang ada nilai null nya dimana terdapat di kolom-kolom sbb:
                 - series, description, language, bookFormat, edition, pages, publisher, publishDate, firstPublishDate, likedPercent, coverImg dan price
         - Dilakukan pemeriksaan ulang setelah delete null untuk meyakinkan bahwa sudah tidak ada nilai null yang masih tersisa.
@@ -88,19 +91,22 @@ Metode:
 
 Menggunakan metode statistik seperti IQR (Interquartile Range) atau Z-score untuk mendeteksi outliers.
 Menghapus transaksi dengan Quantity atau UnitPrice yang sangat tinggi atau rendah dibandingkan dengan rata-rata untuk meningkatkan kualitas data (bila ada). Namun di data ini tidak dilakukan karena sebaran nya sudah cukup baik. 
-Gambar_4.jpg
+![Gambar_4](https://github.com/user-attachments/assets/52772cb2-326e-4057-8bdb-9e27f4644a43)
+
 
 3. Exploratory Data Analysis
    
 - Dengan mengikuti tahapan data preparation ini, kami dapat memastikan bahwa data yang digunakan dalam analisis dan model rekomendasi adalah data yang berkualitas dan siap digunakan.
 
 - Jumlah Judul Buku vs Bahasa
-  Gambar_5.jpg
+  ![Gambar_5](https://github.com/user-attachments/assets/fb700171-da91-4e1c-897c-43c6b5a2b677)
+
 
   Berdasar grafik di atas diketahui ternyata perpustakaan didominasi oleh buku berbahasa Inggris, diikuti Italia dan Spanish, dll. Namun secara kuantitas Italia, dst memiliki jumlah yang tidak jauh berbeda.
 
 - Jumlah Buku vs Penerbit
-  Gambar_6.jpg
+  ![Gambar_6](https://github.com/user-attachments/assets/deebea21-0495-4388-9bb0-3928f4c5f010)
+
 
   Berdasar grafik di atas diketahui ternyata perpustakaan mengoleksi buku dari penerbit yang beragam dan jumlah nya tidak jauh berbeda. Karena TOP 5 penerbit yang dipimpin oleh Marvel lalu Oxford hanya berbeda 5 pcs. Demikian pula untuk penerbit-penerbit di bawah nya.  
 
