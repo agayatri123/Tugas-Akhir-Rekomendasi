@@ -107,7 +107,7 @@ Gambar_4.jpg
   
 Cosine Similarity Cosine Similarity adalah metrik yang digunakan untuk mengukur seberapa mirip dua vektor dalam ruang multidimensi. Dalam konteks sistem rekomendasi, cosine similarity sering digunakan untuk menentukan kesamaan antara item (seperti produk) berdasarkan fitur-fitur yang dimiliki. Metrik ini sangat berguna dalam pendekatan Collaborative Filtering dan Content-Based Filtering.
 
-Cosine similarity dihitung dengan rumus berikut:
+- Cosine similarity dihitung dengan rumus berikut:
 
 Screenshot 2024-11-24 at 16 55 55
 Di mana:
@@ -115,16 +115,16 @@ Di mana:
 ( A ) dan ( B ) adalah dua vektor yang mewakili item yang dibandingkan.
 ( A \cdot B ) adalah hasil kali dot antara dua vektor.
 ( |A| ) dan ( |B| ) adalah norma (panjang) dari vektor ( A ) dan ( B ).
-Nilai cosine similarity berkisar antara -1 hingga 1:
+- Nilai cosine similarity berkisar antara -1 hingga 1:
 
 1 menunjukkan bahwa dua vektor identik (sama arah).
 0 menunjukkan bahwa dua vektor tidak memiliki kesamaan (tegak lurus).
 -1 menunjukkan bahwa dua vektor berlawanan arah.
 
-Berdasarkan perhitungan tf-idf matrix didapatkan hasil pasangan tile (Judul Buku) terhadap language (Bahasa) yang digunakan sbb:
+- Berdasarkan perhitungan tf-idf matrix didapatkan hasil pasangan tile (Judul Buku) terhadap language (Bahasa) yang digunakan sbb:
 Gambar_7.jpeg
 
-Lalu kita menghitung cosine similarity dataframe tfidf_matrix yang kita peroleh pada tahapan sebelumnya sehingga menghasilkan kesamaan (similarity) antar title (Judul Buku) sbb:
+- Lalu kita menghitung cosine similarity dataframe tfidf_matrix yang kita peroleh pada tahapan sebelumnya sehingga menghasilkan kesamaan (similarity) antar title (Judul Buku) sbb:
 Gambar_8,jpeg
 
 
