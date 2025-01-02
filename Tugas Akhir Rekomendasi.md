@@ -59,7 +59,8 @@ Pada bagian ini, kami menerapkan beberapa teknik data preparation yang penting u
 
   - Deskripsi: Proses ini bertujuan untuk menghapus data yang kosong dan memastikan bahwa data dalam format yang konsisten. Data yang bersih sangat penting untuk analisis yang akurat dan model yang efektif.
   - Langkah-langkah:
-          - Melihat summary dari dataset awal untuk mengetahui: jumlah kolom,jenis data apa saja yang ada, jenis data dari tiap kolom, berapa entries/baris data yang ada, besar memory yanng digunakan dataset, berapa banyak kolom yang null.
+          - Melihat summary dari dataset awal untuk mengetahui:
+          - jumlah kolom,jenis data apa saja yang ada, jenis data dari tiap kolom, berapa entries/baris data yang ada, besar memory yanng digunakan dataset, berapa banyak kolom yang null.
         
     ![Gambar_1](https://github.com/user-attachments/assets/c96d1122-0ef3-4785-a65b-5c1e9f74d2eb)
 
