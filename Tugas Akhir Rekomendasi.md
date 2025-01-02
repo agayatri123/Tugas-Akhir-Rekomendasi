@@ -44,8 +44,6 @@ Pendekatan Algoritma Rekomendasi Berbasis Kesamaan: Menggunakan algoritma cosine
       - Kolom lainnya terisi lengkap
 
 Variabel atau Fitur pada Dataset (dari 20 column yang tersisa setelah data "dibersihkan" diambil fitur data yang penting sbb:
-
-
         - bookId: Nomor buku di perpustakaan (type: object)
         - title: Judul Buku  (type: object)
         - series: Serial dari buku, bila ada  (type: object)
@@ -62,8 +60,8 @@ Pada bagian ini, kami menerapkan beberapa teknik data preparation yang penting u
   - Deskripsi: Proses ini bertujuan untuk menghapus data yang kosong dan memastikan bahwa data dalam format yang konsisten. Data yang bersih sangat penting untuk analisis yang akurat dan model yang efektif.
   - Langkah-langkah:
           - Melihat summary dari dataset awal untuk mengetahui :
-                    - jumlah kolom
-                    - jenis data apa saja yang ada
+                    -  jumlah kolom
+                    -  jenis data apa saja yang ada
                     - jenis data dari tiap kolom
                     - berapa entries/baris data yang ada
                     - besar memory yanng digunakan dataset
