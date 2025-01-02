@@ -67,8 +67,7 @@ Pada bagian ini, kami menerapkan beberapa teknik data preparation yang penting u
               - berapa entries/baris data yang ada
               - besar memory yanng digunakan dataset
               - berapa banyak kolom yang null
-    [Gambar_1![Gambar_1](https://github.com/user-attachments/assets/0dafcadb-8111-464c-8451-e905507ba221)
-.jpeg] 
+    [Gambar_1![Gambar_1](https://github.com/user-attachments/assets/0dafcadb-8111-464c-8451-e905507ba221)] 
 
         - Setelah mengetahui kolom mana saja yang null (karena di bagian "non-null count" kurang dari jumlah entries), maka dicheck ulang melihat sample isian 5 data dari tiap kolom untuk meyakiknkan isinya apa saja.
         - Juga di-check ulang mana saja kolom yang termasuk kelompok Numerical dan mana yang categorical.
