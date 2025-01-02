@@ -129,10 +129,10 @@ Di mana:
 -1 menunjukkan bahwa dua vektor berlawanan arah.
 
 - Berdasarkan perhitungan tf-idf matrix didapatkan hasil pasangan tile (Judul Buku) terhadap language (Bahasa) yang digunakan sbb:
-Gambar_7.jpeg
+[Gambar_8].jpeg
 
 - Lalu kita menghitung cosine similarity dataframe tfidf_matrix yang kita peroleh pada tahapan sebelumnya sehingga menghasilkan kesamaan (similarity) antar title (Judul Buku) sbb:
-Gambar_8,jpeg
+[Gambar_9],jpeg
 
 
 ## Evaluation
