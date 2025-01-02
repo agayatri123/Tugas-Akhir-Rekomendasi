@@ -93,17 +93,38 @@ Menghapus transaksi dengan Quantity atau UnitPrice yang sangat tinggi atau renda
 Gambar_4.jpg
 
 3. Exploratory Data Analysis
+   
+- Dengan mengikuti tahapan data preparation ini, kami dapat memastikan bahwa data yang digunakan dalam analisis dan model rekomendasi adalah data yang berkualitas dan siap digunakan.
 
-Dengan mengikuti tahapan data preparation di atas tadi, kita dapat memastikan bahwa data yang digunakan dalam analisis dan model rekomendasi adalah data yang berkualitas dan siap digunakan. Berikut beberapa contoh analisis data nya.
-- 
-        
+- Jumlah Judul Buku vs Bahasa
+  Gambar_5.jpg
 
+  Berdasar grafik di atas diketahui ternyata perpustakaan didominasi oleh buku berbahasa Inggris, diikuti Italia dan Spanish, dll. Namun secara kuantitas Italia, dst memiliki jumlah yang tidak jauh berbeda.
 
+- Jumlah Buku vs Penerbit
+  Gambar_6.jpg
 
+  Berdasar grafik di atas diketahui ternyata perpustakaan mengoleksi buku dari penerbit yang beragam dan jumlah nya tidak jauh berbeda. Karena TOP 5 penerbit yang dipimpin oleh Marvel lalu Oxford hanya berbeda 5 pcs. Demikian pula untuk penerbit-penerbit di bawah nya.  
 
 ## Modeling
-Tahapan ini membahas mengenai model machine learning yang digunakan untuk menyelesaikan permasalahan. Anda perlu menyajikan top-N recommendation sebagai output.
-Tahapan ini membahas mengenai model sisten rekomendasi yang Anda buat untuk menyelesaikan permasalahan. Sajikan top-N recommendation sebagai output.
+
+- Metode yang dipakai adalah Content Based Filtering
+  
+Cosine Similarity Cosine Similarity adalah metrik yang digunakan untuk mengukur seberapa mirip dua vektor dalam ruang multidimensi. Dalam konteks sistem rekomendasi, cosine similarity sering digunakan untuk menentukan kesamaan antara item (seperti produk) berdasarkan fitur-fitur yang dimiliki. Metrik ini sangat berguna dalam pendekatan Collaborative Filtering dan Content-Based Filtering.
+
+Cosine similarity dihitung dengan rumus berikut:
+
+Screenshot 2024-11-24 at 16 55 55
+Di mana:
+
+( A ) dan ( B ) adalah dua vektor yang mewakili item yang dibandingkan.
+( A \cdot B ) adalah hasil kali dot antara dua vektor.
+( |A| ) dan ( |B| ) adalah norma (panjang) dari vektor ( A ) dan ( B ).
+Nilai cosine similarity berkisar antara -1 hingga 1:
+
+1 menunjukkan bahwa dua vektor identik (sama arah).
+0 menunjukkan bahwa dua vektor tidak memiliki kesamaan (tegak lurus).
+-1 menunjukkan bahwa dua vektor berlawanan arah.
 
 **Opsional**: 
 - Menjelaskan kelebihan dan kekurangan dari setiap algoritma yang digunakan.
