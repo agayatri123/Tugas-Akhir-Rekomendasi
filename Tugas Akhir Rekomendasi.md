@@ -67,6 +67,7 @@ Pada bagian ini, kami menerapkan beberapa teknik data preparation yang penting u
               - berapa entries/baris data yang ada
               - besar memory yanng digunakan dataset
               - berapa banyak kolom yang null
+        
     ![Gambar_1](https://github.com/user-attachments/assets/c96d1122-0ef3-4785-a65b-5c1e9f74d2eb)
 
 
