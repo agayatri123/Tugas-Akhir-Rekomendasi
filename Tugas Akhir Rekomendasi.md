@@ -87,7 +87,7 @@ Metode:
 
 Menggunakan metode statistik seperti IQR (Interquartile Range) atau Z-score untuk mendeteksi outliers.
 Menghapus transaksi dengan Quantity atau UnitPrice yang sangat tinggi atau rendah dibandingkan dengan rata-rata untuk meningkatkan kualitas data (bila ada). Namun di data ini tidak dilakukan karena sebaran nya sudah cukup baik. 
-![Gambar_4] ![Gambar_4](https://github.com/user-attachments/assets/7bd5d1f4-1a1f-4857-b553-e84182339e8b)
+![Gambar_4] [Gambar_4](https://github.com/user-attachments/assets/7bd5d1f4-1a1f-4857-b553-e84182339e8b)
 
 
 3. Exploratory Data Analysis
