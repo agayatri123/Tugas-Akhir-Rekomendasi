@@ -47,12 +47,12 @@ Pendekatan Algoritma Rekomendasi Berbasis Kesamaan: Menggunakan algoritma cosine
    
     - bookId: Nomor buku di perpustakaan (type: object)
     - title: Judul Buku  (type: object)
-        - series: Serial dari buku, bila ada  (type: object)
-        - author: Pengarang Buku  (type: object)
-        - rating: penilaian pembaca tentang kualitas buku antara 1-5  (type: int64)
-        - descriptian: penjelasan singkat isi buku  (type: object)
-        - language: Bahasa yang dipakai oleh penulis  (type: object)
-        - dst
+    - series: Serial dari buku, bila ada  (type: object)
+    - author: Pengarang Buku  (type: object)
+    - rating: penilaian pembaca tentang kualitas buku antara 1-5  (type: int64)
+    - descriptian: penjelasan singkat isi buku  (type: object)
+    - language: Bahasa yang dipakai oleh penulis  (type: object)
+    - dst
 
 ## Data Preparation
 Pada bagian ini, kami menerapkan beberapa teknik data preparation yang penting untuk memastikan bahwa data siap digunakan dalam analisis dan model rekomendasi. Proses yang dilakukan adalah sebagai berikut :
