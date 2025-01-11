@@ -145,12 +145,16 @@ Di mana:
 
 ## Evaluation
 
-Pada bagian ini, kita akan mencoba menanyakan 2 contoh rekomendasi sbb: 
+1) Pada bagian ini, kita akan mencoba menanyakan 2 contoh rekomendasi sbb: 
 
   - Rekomendasi TOP5 (5 buah judul) yang mirip dengan title "Deuil" berbahasa Prancis. Terlihat hasilnya sudah sesuai yang diharapkan. [Gambar_10] ![Gambar_10](https://github.com/user-attachments/assets/e64b134a-6343-4d59-a8c1-c46fbd700ad8)
 
   
   - Rekomendasi TOP10 (10 buah judul buku) yang mirip dengan title "Eugénie Grandet" berbahasa Inggris. Terlihat hasilnya sudah sesuai sepertu yang diharapkan. [Gambar_12] ![Gambar_12](https://github.com/user-attachments/assets/423d5b85-e684-45ba-baba-1be2208c3f8c)
+
+2) Metrik yang digunakan adalah metrik precision yang sesuai untuk model content based filtering. Dimana memiliki Precision formula sbb:
+[Gambar_13] ![Gambar_13](https://github.com/user-attachments/assets/cba597e1-1a1d-4d50-ba3a-442c95ae714d)
+
 
 
 **---Ini adalah bagian akhir laporan---**
