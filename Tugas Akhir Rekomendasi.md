@@ -108,6 +108,10 @@ Pada bagian ini, kami menerapkan beberapa teknik data preparation yang penting u
 
   - Gunakan fungsi tfidfvectorizer() dari library sklearn. {Gambar_14]![Gambar_14](https://github.com/user-attachments/assets/f864bb55-1147-4b4f-8e89-997b031c6c1c)
 
+  - Kemudian melakukan fit dan transformasi ke dalam bentuk matriks yang menghasilkan output: (764, 9)
+  - Lalu ubah vektor tf-idf dalam bentuk matriks dimana menghasilkan spt berikut. [Gambar_15]![Gambar_14](https://github.com/user-attachments/assets/5e4b8c27-0ddb-4153-90f9-ac62c64f5772)
+
+    
   - 
    
 ## Modeling
