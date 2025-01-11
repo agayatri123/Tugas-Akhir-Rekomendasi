@@ -44,8 +44,8 @@ Pendekatan Algoritma Rekomendasi Berbasis Kesamaan: Menggunakan algoritma cosine
       - Kolom lainnya terisi lengkap
 
 Variabel atau Fitur pada Dataset (dari 20 column yang tersisa setelah data "dibersihkan" diambil fitur data yang penting sbb:
-        - bookId: Nomor buku di perpustakaan (type: object)
-        - title: Judul Buku  (type: object)
+    - bookId: Nomor buku di perpustakaan (type: object)
+    - title: Judul Buku  (type: object)
         - series: Serial dari buku, bila ada  (type: object)
         - author: Pengarang Buku  (type: object)
         - rating: penilaian pembaca tentang kualitas buku antara 1-5  (type: int64)
