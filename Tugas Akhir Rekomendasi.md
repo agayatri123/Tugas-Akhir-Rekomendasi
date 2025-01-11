@@ -145,11 +145,12 @@ Di mana:
 
 ## Evaluation
 
-Pada bagian ini, kita akan mencoba menanyakan rekomendasi 5 buah judul yang mirip dengan title yang kita ketik misalnya "Eugénie Grandet" berbahasa Inggris sbb:
-Terlihat hasilnya sudah sesuai sepertu yang diharapkan. 
-[Gambar_10] ![Gambar_10](https://github.com/user-attachments/assets/8026eada-db0e-4de7-8bf8-d2c8051bf267)
+Pada bagian ini, kita akan mencoba menanyakan 2 contoh rekomendasi sbb: 
 
+  - rekomendasi TOP5 (5 buah judul) yang mirip dengan title "Deuil" berbahasa Prancis. Terlihat hasilnya sudah sesuai yang diharapkan. [Gambar_10] ![Gambar_10](https://github.com/user-attachments/assets/e64b134a-6343-4d59-a8c1-c46fbd700ad8)
 
+  
+  - rekomendasi TOP10 (10 buah judul buku) yang mirip dengan title "Eugénie Grandet" berbahasa Inggris. Terlihat hasilnya sudah sesuai sepertu yang diharapkan. [Gambar_12] ![Gambar_12](https://github.com/user-attachments/assets/423d5b85-e684-45ba-baba-1be2208c3f8c)
 
 
 **---Ini adalah bagian akhir laporan---**
