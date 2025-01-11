@@ -96,19 +96,6 @@ Pada bagian ini, kami menerapkan beberapa teknik data preparation yang penting u
 
   - Lalu juga menghapus language yang formatnya kurang sesuai sbb: [Gambar_11] ![Gambar_11](https://github.com/user-attachments/assets/f30bcec3-51a6-4645-86fd-111ecb9db5ad)
 
-
-
-2. Handling Outliers
-
-Deskripsi: Mengidentifikasi dan menangani outliers yang dapat mempengaruhi analisis. Outliers dapat menyebabkan distorsi dalam hasil analisis dan model.
-
-Metode:
-
-Menggunakan metode statistik seperti IQR (Interquartile Range) atau Z-score untuk mendeteksi outliers.
-Menghapus transaksi dengan Quantity atau UnitPrice yang sangat tinggi atau rendah dibandingkan dengan rata-rata untuk meningkatkan kualitas data (bila ada). Namun di data ini tidak dilakukan karena sebaran nya sudah cukup baik. 
-[Gambar_4] 
-![Gambar_4](https://github.com/user-attachments/assets/e8440599-e6ac-4e1d-91be-1d996d3a7676)
-
 ## Modeling
 
 - Metode yang dipakai adalah Content Based Filtering
@@ -152,10 +139,14 @@ Di mana:
   
   - Rekomendasi TOP10 (10 buah judul buku) yang mirip dengan title "Eugénie Grandet" berbahasa Inggris. Terlihat hasilnya sudah sesuai sepertu yang diharapkan. [Gambar_12] ![Gambar_12](https://github.com/user-attachments/assets/423d5b85-e684-45ba-baba-1be2208c3f8c)
 
-2) Metrik yang digunakan adalah metrik precision yang sesuai untuk model content based filtering. Dimana memiliki Precision formula sbb:
+2) Metrik yang digunakan adalah metrik precision yang sesuai untuk model content based filtering.
+   - Dimana memiliki Precision formula sbb:
 [Gambar_13] ![Gambar_13](https://github.com/user-attachments/assets/cba597e1-1a1d-4d50-ba3a-442c95ae714d)
 
-
+   - Pada contoh sample 2x rekomendasi judul buku di atas baik TOP5 dan TOP10 di atas:
+Precission_1 = 5/5.
+Precission_2 = 10/10
+Jadi presisinya = 100%
 
 **---Ini adalah bagian akhir laporan---**
 
