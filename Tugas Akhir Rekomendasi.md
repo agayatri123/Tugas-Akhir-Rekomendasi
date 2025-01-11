@@ -80,6 +80,10 @@ Pada bagian ini, kami menerapkan beberapa teknik data preparation yang penting u
         - Dilakukan pemeriksaan ulang setelah delete null untuk meyakinkan bahwa sudah tidak ada nilai null yang masih tersisa.
         - Setelah nya dilihat lagi berapa entries yang tersisa. Ternyata berkurang karena cukup banyak kolom yang ada nilai null nya tadi.
 
+  - Lalu juga menghapus language yang formatnya kurang sesuai sbb: [Gambar_11] ![Gambar_11](https://github.com/user-attachments/assets/f30bcec3-51a6-4645-86fd-111ecb9db5ad)
+
+
+
 2. Handling Outliers
 
 Deskripsi: Mengidentifikasi dan menangani outliers yang dapat mempengaruhi analisis. Outliers dapat menyebabkan distorsi dalam hasil analisis dan model.
