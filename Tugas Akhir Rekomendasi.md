@@ -106,7 +106,9 @@ Pada bagian ini, kami menerapkan beberapa teknik data preparation yang penting u
 
 2) Tahapan TF-IDF Vectorizer
 
+  - Gunakan fungsi tfidfvectorizer() dari library sklearn. {Gambar_14]![Gambar_14](https://github.com/user-attachments/assets/f864bb55-1147-4b4f-8e89-997b031c6c1c)
 
+  - 
    
 ## Modeling
 
