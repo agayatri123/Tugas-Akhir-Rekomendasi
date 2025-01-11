@@ -104,6 +104,10 @@ Pada bagian ini, kami menerapkan beberapa teknik data preparation yang penting u
   
     [Gambar_11] ![Gambar_11](https://github.com/user-attachments/assets/f30bcec3-51a6-4645-86fd-111ecb9db5ad)
 
+2) Tahapan TF-IDF Vectorizer
+
+
+   
 ## Modeling
 
 - Metode yang dipakai adalah Content Based Filtering
