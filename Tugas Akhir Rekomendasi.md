@@ -112,7 +112,9 @@ Pada bagian ini, kami menerapkan beberapa teknik data preparation yang penting u
   - Lalu ubah vektor tf-idf dalam bentuk matriks dimana menghasilkan spt berikut. [Gambar_15]![Gambar_14](https://github.com/user-attachments/assets/5e4b8c27-0ddb-4153-90f9-ac62c64f5772)
 
     
-  - 
+  - Lalu melihat matriks tf-idf untuk beberapa judul buku dan bahasa nya.
+  - Hitung derajat kesamaan (similarity degree) antar judul buku dengan teknik cosine similarity dari library sklearn.
+  - Kemudian lihat matriks kesamaan setiap judul buku dengan menampilkan nama restoran dalam 5 sampel kolom (axis = 1) dan 10 sampel baris (axis=0).
    
 ## Modeling
 
