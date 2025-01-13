@@ -116,11 +116,11 @@ Pada bagian ini, diterapkan beberapa teknik data preparation yang penting untuk 
    
 ## Modeling
 
-- Metode yang dipakai adalah Content Based Filtering
+1) Metode yang dipakai adalah Content Based Filtering
   
 Cosine Similarity Cosine Similarity adalah metrik yang digunakan untuk mengukur seberapa mirip dua vektor dalam ruang multidimensi. Dalam konteks sistem rekomendasi, cosine similarity sering digunakan untuk menentukan kesamaan antara item (seperti produk) berdasarkan fitur-fitur yang dimiliki. Metrik ini sangat berguna dalam pendekatan Collaborative Filtering dan Content-Based Filtering.
 
-- Cosine similarity dihitung dengan rumus berikut:
+2) Cosine similarity dihitung dengan rumus berikut:
 
 [Gambar_7] ![Gambar_7](https://github.com/user-attachments/assets/56147c6f-4bc9-4e38-a6f9-c3f52cc2a6ea)
 
@@ -136,28 +136,26 @@ Di mana:
 0 menunjukkan bahwa dua vektor tidak memiliki kesamaan (tegak lurus).
 -1 menunjukkan bahwa dua vektor berlawanan arah.
 
-- Berdasarkan perhitungan tf-idf matrix didapatkan hasil pasangan tile (Judul Buku) terhadap language (Bahasa) yang digunakan sbb:
+3) Berdasarkan perhitungan tf-idf matrix didapatkan hasil pasangan tile (Judul Buku) terhadap language (Bahasa) yang digunakan sbb:
   
 [Gambar_8].jpeg ![Gambar_8](https://github.com/user-attachments/assets/b16a0ad2-6d0d-4b7a-94cc-5186ed29cd87)
 
 
-- Lalu dihitung cosine similarity dataframe tfidf_matrix yang diperoleh pada tahapan sebelumnya sehingga menghasilkan kesamaan (similarity) antar title (Judul Buku) sbb:
+4) Lalu dihitung cosine similarity dataframe tfidf_matrix yang diperoleh pada tahapan sebelumnya sehingga menghasilkan kesamaan (similarity) antar title (Judul Buku) sbb:
   Terlihat sebagian besar buku memiliki kesamaan, hanya buku paling kiri tidak. Sebab paling kiri adalah buku Italia.
   
 [Gambar_9],jpeg ![Gambar_9](https://github.com/user-attachments/assets/5b820275-c972-4fde-bad1-3e388d527003)
 
-
-
-## Evaluation
-
-1) Pada bagian ini, dicoba menanyakan 2 contoh rekomendasi sbb: 
+5) Pada bagian ini, dicoba menanyakan 2 contoh rekomendasi sbb: 
 
   - Rekomendasi TOP5 (5 buah judul) yang mirip dengan title "Deuil" berbahasa Prancis. Terlihat hasilnya sudah sesuai yang diharapkan. [Gambar_10] ![Gambar_10](https://github.com/user-attachments/assets/e64b134a-6343-4d59-a8c1-c46fbd700ad8)
 
   
   - Rekomendasi TOP10 (10 buah judul buku) yang mirip dengan title "Eugénie Grandet" berbahasa Inggris. Terlihat hasilnya sudah sesuai sepertu yang diharapkan. [Gambar_12] ![Gambar_12](https://github.com/user-attachments/assets/423d5b85-e684-45ba-baba-1be2208c3f8c)
 
-2) Metrik yang digunakan adalah metrik precision yang sesuai untuk model content based filtering.
+## Evaluation
+
+1) Metrik yang digunakan adalah metrik precision yang sesuai untuk model content based filtering.
    - Dimana memiliki Precision formula sbb:
 [Gambar_13] ![Gambar_13](https://github.com/user-attachments/assets/cba597e1-1a1d-4d50-ba3a-442c95ae714d)
 
