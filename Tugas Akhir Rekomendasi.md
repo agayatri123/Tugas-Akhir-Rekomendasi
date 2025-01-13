@@ -13,11 +13,8 @@ Pentingnya Proyek Sistem Rekomendasi Produk: Proyek sistem rekomendasi produk in
 
 ### Goals
 
-Menjelaskan tujuan dari pernyataan masalah:
 1. Meningkatkan peminjaman/penjualan dan kepuasan pelanggan melalui rekomendasi judul buku yang relevan dengan preferensi pelanggan.
 2. Mengoptimalkan pengelolaan inventaris dengan memastikan buku-buku yang rekomendasikan tersedia dan beragam.
-
-Semua poin di atas harus diuraikan dengan jelas. Anda bebas menuliskan berapa pernyataan masalah dan juga goals yang diinginkan.
 
 **Solution statements**
 
