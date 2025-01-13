@@ -164,5 +164,12 @@ Precission_1 = 5/5.
 Precission_2 = 10/10
 Jadi presisinya = 100%
 
+2) Berdasarkan metrik yang digunakan berdasar 2x percobaan rekomendasi dengan presisi 100% bterlihat bahwa model Content Based Filtering untuk Sistem Rekomendasi berdampak positive dimana menjawab kebutuhan goals yang diharapkan :
+   - Meningkatkan peminjaman dan kepuasan pelanggan melalui rekomendasi judul buku yang relevan dengan preferensi pelanggan.
+   - Mengoptimalkan pengelolaan inventaris dengan memastikan buku-buku yang rekomendasikan tersedia dan beragam.
+
+Goals ini disebabkan permasalahan rekomendasi judul buku yang tidak akurat menyebabkan pelanggan merasa tidak puas, dimana berpotensi mengurangi tingkat peminjaman buku.
+Apalagi pengelolaan data yang besar dan beragam dapat menyulitkan analisis dan pengambilan keputusan yang tepat, salah satunya menangani keragaman buku yang seharusnya tersedia sesuai minat peminjam buku.
+
 
 
