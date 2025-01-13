@@ -51,7 +51,7 @@ Pendekatan Algoritma Rekomendasi Berbasis Kesamaan: Menggunakan algoritma cosine
     - language: Bahasa yang dipakai oleh penulis  (type: object)
     - dst
 
-4) Dengan mengikuti tahapan data preparation ini, kami dapat memastikan bahwa data yang digunakan dalam analisis dan model rekomendasi adalah data yang berkualitas dan siap digunakan.
+4) Dengan mengikuti tahapan data preparation ini, dapat memastikan bahwa data yang digunakan dalam analisis dan model rekomendasi adalah data yang berkualitas dan siap digunakan.
 
 - Jumlah Judul Buku vs Bahasa
   ![Gambar_5](https://github.com/user-attachments/assets/fb700171-da91-4e1c-897c-43c6b5a2b677)
@@ -66,7 +66,7 @@ Pendekatan Algoritma Rekomendasi Berbasis Kesamaan: Menggunakan algoritma cosine
   Berdasar grafik di atas diketahui ternyata perpustakaan mengoleksi buku dari penerbit yang beragam dan jumlah nya tidak jauh berbeda. Karena TOP 5 penerbit yang dipimpin oleh Marvel lalu Oxford hanya berbeda 5 pcs. Demikian pula untuk penerbit-penerbit di bawah nya.  
    
 ## Data Preparation
-Pada bagian ini, kami menerapkan beberapa teknik data preparation yang penting untuk memastikan bahwa data siap digunakan dalam analisis dan model rekomendasi. Proses yang dilakukan adalah sebagai berikut :
+Pada bagian ini, diterapkan beberapa teknik data preparation yang penting untuk memastikan bahwa data siap digunakan dalam analisis dan model rekomendasi. Proses yang dilakukan adalah sebagai berikut :
 1. Data Cleaning
 
   - Deskripsi: Proses ini bertujuan untuk menghapus data yang kosong dan memastikan bahwa data dalam format yang konsisten. Data yang bersih sangat penting untuk analisis yang akurat dan model yang efektif.
@@ -141,7 +141,7 @@ Di mana:
 [Gambar_8].jpeg ![Gambar_8](https://github.com/user-attachments/assets/b16a0ad2-6d0d-4b7a-94cc-5186ed29cd87)
 
 
-- Lalu kita menghitung cosine similarity dataframe tfidf_matrix yang kita peroleh pada tahapan sebelumnya sehingga menghasilkan kesamaan (similarity) antar title (Judul Buku) sbb:
+- Lalu dihitung cosine similarity dataframe tfidf_matrix yang diperoleh pada tahapan sebelumnya sehingga menghasilkan kesamaan (similarity) antar title (Judul Buku) sbb:
   Terlihat sebagian besar buku memiliki kesamaan, hanya buku paling kiri tidak. Sebab paling kiri adalah buku Italia.
   
 [Gambar_9],jpeg ![Gambar_9](https://github.com/user-attachments/assets/5b820275-c972-4fde-bad1-3e388d527003)
@@ -150,7 +150,7 @@ Di mana:
 
 ## Evaluation
 
-1) Pada bagian ini, kita akan mencoba menanyakan 2 contoh rekomendasi sbb: 
+1) Pada bagian ini, dicoba menanyakan 2 contoh rekomendasi sbb: 
 
   - Rekomendasi TOP5 (5 buah judul) yang mirip dengan title "Deuil" berbahasa Prancis. Terlihat hasilnya sudah sesuai yang diharapkan. [Gambar_10] ![Gambar_10](https://github.com/user-attachments/assets/e64b134a-6343-4d59-a8c1-c46fbd700ad8)
 
@@ -166,5 +166,5 @@ Precission_1 = 5/5.
 Precission_2 = 10/10
 Jadi presisinya = 100%
 
-**---Ini adalah bagian akhir laporan---**
+
 
